@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TestDemchenko</title>
+</head>
+<body>
+    <script src="./index.js"></script>
+    <script>console.log(attempt([240, 360, 720], [360, 720], [1080]))</script>
+    <script>console.log(attempt([240, 720], [360, 720], [1080]))</script>
+    <script>console.log(attempt([240], [360, 720], [1080]))</script>
+    <script>console.log(attempt([240, 360, 720], [240, 360, 720, 1080], [240, 360]))</script>
+    <script>console.log(attempt([240, 720], [240, 360, 720, 1080], [240, 360]))</script>
+    <script>console.log(attempt([240, 720], [240, 360, 1080], [240, 360]))</script>
+    <script>console.log(attempt([720], [240, 360, 1080], [240, 360]))</script>
+    <script>console.log(attempt([240, 360], [240, 360], [720, 1080]))</script>
+    <script>console.log(attempt([240, 360, 720], [360, 'any'], [360, 720]))</script>
+    <script>console.log(attempt([240, 360, 720], [240, 360, 720], ['any', 720]))</script>
+    <script>console.log(attempt([240, 360, 720], [360, 1080], ['any', 720]))</script>
+    <script>console.log(attempt([240, 360, 720], [1080], ['any', 720]))</script>
+</body>
+</html>
